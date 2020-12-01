@@ -1,0 +1,74 @@
+body {
+	background-color: lightgray;
+	font-family: Verdana;
+}
+.full {
+	box-shadow: 0px 0px 20px black;
+	background-color: white;
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+	padding: 5px;
+}
+header, nav, main, footer {
+	padding: 20px;	
+}
+header {
+	background-color: black;
+	background-image: url(mikulas_hatter.jpg);
+	background-position: left top;
+	color: white;
+	padding: 10px 0px 30px 0px;
+	text-align: center;
+	font-size: 80%;
+	height: 200px;
+	text-shadow: 1px 1px 2px black;
+}
+.kiemelt {
+	color: red;
+}
+
+nav {
+	background-color: darkred;
+	text-align: center;
+	margin-top:5px;
+	margin-bottom: 5px;
+	color: lightgray;
+	font-variant: small-caps;
+}
+main {
+	background-color: white;
+}
+footer {
+	background-color: darkred;
+	color: lightgray;
+	margin-top: 5px;
+	text-align: center;
+}
+.forras {
+	font-style: italic;
+	font-size: 80%;
+}
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 2px red;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+a:hover {
+		color: red;
+		text-decoration: underline;
+}
+main a {
+	color: red;
+}
+input[type=text] {
+	width: 250px;
+}
+
+textarea{
+    resize:  none;
+}
